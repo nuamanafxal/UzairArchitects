@@ -278,13 +278,23 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     .w3-xxlarge
     {font-size:10px!important;}
     .top-200{
-        top:105px;
+        top:110px;
     }
 }
-@media (max-width:300px) and (min-width:200px)
+@media (max-width:320px) and (min-width:200px)
 {
     .w3-xxlarge
-    {font-size:4px!important;}
+    {font-size:8px!important;}
+    .top-200{
+        top:90px;
+    }
+    .ar-style{
+        border:1px solid rgb(255, 255, 255)!important;
+    }
+}
+@media (max-width:250px){
+    .w3-xxlarge
+    {font-size:5px!important;}
     .top-200{
         top:80px;
     }
